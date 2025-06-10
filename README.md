@@ -26,9 +26,9 @@ For operation_level_coupling demo:
 python experiments/operation_level_coupling.py
 
 Then tweak:
-# Increase lexical PAC
+Increase lexical PAC
 theta_boost = 1.8          # in script, multiply gamma_theta amplitude
-# Add noise
+Add noise
 theta += 0.2*np.random.randn(len(theta))
 
 
