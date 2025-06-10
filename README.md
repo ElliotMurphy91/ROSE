@@ -1,7 +1,7 @@
 <h1 align="center"><img src="https://elliotmurphyblog.wordpress.com/wp-content/uploads/2025/06/figure6.jpg" alt="ROSE-Sim"></h1>
 
 <p align="center">
-  <b>A lightweight sandbox for <em>ROSE</em> 🌹 – the <br>
+  <b>A lightweight sandbox for <em>ROSE</em> – the <br>
   <span style="font-size:1.3em;color:#e63946;"><b>R</b></span>epresentation-
   <span style="font-size:1.3em;color:#f4a261;"><b>O</b></span>peration-
   <span style="font-size:1.3em;color:#2a9d8f;"><b>S</b></span>tructure-
