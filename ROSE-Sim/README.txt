@@ -8,11 +8,16 @@ ROSE-Sim/
 │  └─ analysis.py           # modulation-index, PLV
 ├─ experiments/
 │  └─ two_word_merge.py     # headedness + workspace demo
-│  └─ operation_level_coupling.py	# lexical feature-bundling and generic combinatorics  
+│  └─ operation_level_coupling.py	# lexical feature-bundling and generic combinatorics
+│  └─ head_competition.py	# theta-gamma MI increases determining headedness
+│  └─ left_corner_parser_pac.py		# modeling LC parser via ROSE
+│  └─ motif_binding_demo.py	# demo of dynamical motifs emerging from spike-phase coupling
+│  └─ traveling_wave_workspace.py	# model for basics of the E component of ROSE  
 ├─ tests/
 │  └─ test_pac.py
 ├─ requirements.txt
 
+Examples:
 How to run demo:
 pip install -r requirements.txt
 python experiments/two_word_merge.py
@@ -29,5 +34,3 @@ Then tweak:
 theta_boost = 1.8          # in script, multiply gamma_theta amplitude
 # Add noise
 theta += 0.2*np.random.randn(len(theta))
-
-
