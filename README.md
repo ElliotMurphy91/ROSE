@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://img.shields.io/badge/ROSE-Sim-%F0%9F%8C%B9%20Recursive%20Oscillatory%20Syntax%20Engine-5e9?style=for-the-badge&logoColor=white" alt="ROSE-Sim"></h1>
+<h1 align="center"><img src="https://elliotmurphyblog.wordpress.com/wp-content/uploads/2025/06/figure6.jpg" alt="ROSE-Sim"></h1>
 
 <p align="center">
   <b>A lightweight sandbox for <em>ROSE</em> 🌹 – the <br>
