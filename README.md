@@ -13,6 +13,13 @@
 
 ---
 
+## 🚀 Quick Start
+# 1. Install deps
+pip install -r requirements.txt
+
+# 2. Run a minimal MERGE demo
+python experiments/two_word_merge.py
+
 ## 🌐 Repo layout
 ```text
 ROSE-Sim/
@@ -32,4 +39,3 @@ ROSE-Sim/
 │  └─ test_pac.py
 ├─ requirements.txt
 └─ README.md
-
