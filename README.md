@@ -25,6 +25,9 @@ ROSE-Sim/
 │  ├─ two_word_merge.py     # headedness + workspace
 │  ├─ operation_level_coupling.py  # lexical feature bundling
 │  └─ head_competition_travelwave.py  # θ–γ competition & δ wave
+│  └─ left_corner_parser_pac.py		# modeling LC parser via ROSE
+│  └─ motif_binding_demo.py	# demo of dynamical motifs emerging from spike-phase coupling
+│  └─ traveling_wave_workspace.py	# model for basics of the E component of ROSE  
 ├─ tests/
 │  └─ test_pac.py
 ├─ requirements.txt
