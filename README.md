@@ -31,4 +31,7 @@ theta_boost = 1.8          # in script, multiply gamma_theta amplitude
 Add noise
 theta += 0.2*np.random.randn(len(theta))
 
+Citation:
+Murphy, E. (2024). ROSE: A neurocomputational architecture for syntax. Journal of Neurolinguistics 70: 101180.
+
 
