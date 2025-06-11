@@ -15,6 +15,7 @@ ROSE-Sim/
 │  └─ traveling_wave_workspace.py	# model for basics of the E component of ROSE  
 ├─ tests/
 │  └─ test_pac.py
+│  └─ naturalistic_multi_scale.py
 ├─ requirements.txt
 
 Examples:
