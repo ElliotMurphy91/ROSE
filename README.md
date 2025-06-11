@@ -20,6 +20,16 @@ pip install -r requirements.txt
 # 2. Run a minimal MERGE demo
 python experiments/two_word_merge.py
 
+## 🌹 Master pipeline
+The rose_master_pipeline.py orchestrates a naturalistic language processing (e.g., podcast listening) analysis workflow, with the following components:
+Audio → Whisper transcript
+Incremental left-corner MG parsing with event logging
+Alignment to EEG and δ–θ–γ PAC headedness metrics
+Dynamical-motif RNN lexical traces
+Traveling-wave analysis across electrodes
+Optional ephaptic-field simulation for gain control
+Consolidated HDF5/CSV outputs + metadata snapshot
+
 ## 🌐 Repo layout
 ```text
 ROSE-Sim/
@@ -40,13 +50,3 @@ ROSE-Sim/
 │  └─ test_pac.py
 ├─ requirements.txt
 └─ README.md
-
-``` The rose_master_pipeline.py orchestrates a naturalistic language processing (e.g., podcast listening) analysis workflow, with the following components:
-
-Audio → Whisper transcript
-Incremental left-corner MG parsing with event logging
-Alignment to EEG and δ–θ–γ PAC headedness metrics
-Dynamical-motif RNN lexical traces
-Traveling-wave analysis across electrodes
-Optional ephaptic-field simulation for gain control
-Consolidated HDF5/CSV outputs + metadata snapshot
