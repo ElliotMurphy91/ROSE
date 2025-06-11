@@ -34,3 +34,13 @@ Then tweak:
 theta_boost = 1.8          # in script, multiply gamma_theta amplitude
 # Add noise
 theta += 0.2*np.random.randn(len(theta))
+
+The rose_master_pipeline.py orchestrates a naturalistic language processing (e.g., podcast listening) analysis workflow, with the following components:
+
+Audio → Whisper transcript
+Incremental left-corner MG parsing with event logging
+Alignment to EEG and δ–θ–γ PAC headedness metrics
+Dynamical-motif RNN lexical traces
+Traveling-wave analysis across electrodes
+Optional ephaptic-field simulation for gain control
+Consolidated HDF5/CSV outputs + metadata snapshot
