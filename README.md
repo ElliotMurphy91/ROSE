@@ -20,6 +20,9 @@ pip install -r requirements.txt
 # 2. Run a minimal MERGE demo
 python experiments/two_word_merge.py
 
+# 3. Run a multi-scale analysis for iEEG data
+python tests/naturalistic_multi_scale.py
+
 ## 🌹 Master pipeline
 The rose_master_pipeline.py orchestrates a naturalistic language processing (e.g., podcast listening) analysis workflow, with the following components:<br>
 Audio → Whisper transcript<br>
@@ -48,5 +51,6 @@ ROSE-Sim/
 │  └─ traveling_wave_workspace.py	# model for basics of the E component of ROSE  
 ├─ tests/
 │  └─ test_pac.py
+│  └─ naturalistic_multi_scale.py
 ├─ requirements.txt
 └─ README.md
