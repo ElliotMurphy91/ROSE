@@ -28,6 +28,7 @@ ROSE-Sim/
 │  ├─ oscillators.py        # Sinusoid + Wilson-Cowan E–I node
 │  ├─ workspace.py          # δ–θ push/reset & α-load logic
 │  └─ analysis.py           # MI, PLV, PAC helpers
+│  └─ rose_master_pipeline.py  # Workflow for EEG datasets with naturalistic stimuli     
 ├─ experiments/             runnable demos
 │  ├─ two_word_merge.py     # headedness + workspace
 │  ├─ operation_level_coupling.py  # lexical feature bundling
@@ -39,3 +40,13 @@ ROSE-Sim/
 │  └─ test_pac.py
 ├─ requirements.txt
 └─ README.md
+
+``` The rose_master_pipeline.py orchestrates a naturalistic language processing (e.g., podcast listening) analysis workflow, with the following components:
+
+Audio → Whisper transcript
+Incremental left-corner MG parsing with event logging
+Alignment to EEG and δ–θ–γ PAC headedness metrics
+Dynamical-motif RNN lexical traces
+Traveling-wave analysis across electrodes
+Optional ephaptic-field simulation for gain control
+Consolidated HDF5/CSV outputs + metadata snapshot
