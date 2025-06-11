@@ -22,7 +22,7 @@ python experiments/two_word_merge.py
 
 ## 🌹 Master pipeline
 The rose_master_pipeline.py orchestrates a naturalistic language processing (e.g., podcast listening) analysis workflow, with the following components:
-Audio → Whisper transcript
+Audio → Whisper transcript<br>
 Incremental left-corner MG parsing with event logging
 Alignment to EEG and δ–θ–γ PAC headedness metrics
 Dynamical-motif RNN lexical traces
